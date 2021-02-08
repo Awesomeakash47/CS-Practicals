@@ -1,3 +1,5 @@
+print('1 - to check if a string is present in another string')
+print('2 - to replace all space in a string with @') 
 ch = int(input('1 or 2: '))
 
 if ch == 1:
@@ -13,10 +15,10 @@ elif ch == 2:
     s = input('enter a str: ')
     out = ''
     for i in range(len(s)):
-        '''if s[i].isspace:
+        if s[i].isspace:
 
             out += '@'
         else:
-            out += s[i]'''
+            out += s[i]
 
     print(out)
