@@ -5,15 +5,15 @@ aeven = aodd = beven = bodd = 0
 
 for i in range(a):
     if i % 2:
-        aodd += int(i)
+        aodd += i
     else:
-        aeven += int(i)
+        aeven += i
 
 for i in range(b) :
     if i % 2:
-        bodd += int(i)
+        bodd += i
     else:
-        beven += int(i)
+        beven += i
 
 
 
