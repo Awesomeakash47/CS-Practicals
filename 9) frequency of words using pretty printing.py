@@ -1,6 +1,6 @@
 import json
 
-s = input('Enter a string: ').split()
+s = input('Enter a string: ')
 d = {}
 for i in s:
     d[i] = s.count(i)
